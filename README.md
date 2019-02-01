@@ -1,12 +1,12 @@
-Latest GitHub Tag
+Latest GitLab Tag
 ===
 
-> Fetch the latest tag name from a GitHub repo (promise-based)
+> Fetch the latest tag name from a GitLab repo (promise-based)
 
-[![Build Status](https://secure.travis-ci.org/mhkeller/latest-github-tag.png?branch=master&style=flat-square)](http://travis-ci.org/mhkeller/latest-github-tag) [![NPM version](https://badge.fury.io/js/latest-github-tag.png?style=flat)](http://badge.fury.io/js/latest-github-tag)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+**This is a fork of [mhkeller/latest-github-tag](https://github.com/mhkeller/latest-github-tag) modified to work with gitlab instead of github.**
 
 ```js
+const latestTag = require('latest-gitlab-tag');
 latestTag('mhkeller', 'stable-tag').then(function (tag) {
   console.log(tag) // Outputs v1.0.0
 })

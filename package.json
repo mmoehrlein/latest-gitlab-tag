@@ -4,12 +4,12 @@
   "description": "Fetch the latest tag name from a GitLab repo (promise-based)",
   "main": "index.js",
   "scripts": {
-    "test": "standard index.js && mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": ">=8"
   },
-  "author": "Michael Möhrlein <code@moehrlein.io>",
+  "author": "Michael Moehrlein <code@moehrlein.io>",
   "license": "MIT",
   "keywords": [
     "latest",
@@ -24,10 +24,7 @@
     "gitlab": "^4.3.0",
     "semver": "^5.6.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/mmoehrlein/latest-gitlab-tag.git"
-  },
+  "repository": "github:mmoehrlein/latest-gitlab-tag",
   "bugs": {
     "url": "https://github.com/mhkeller/latest-gitlab-tag/issues"
   },
